@@ -10,7 +10,7 @@ const MarkAttendance = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/api/attendance', { uniqueId, status });
+            const response = await axios.post('http://localhost:5000/api/attendance', { uniqueId, status }); //replaced with entire link coming from backend
             setMessage(response.data.message);
         } catch (error) {
             const errorMessage = error.response?.data?.message || error.message || 'Error marking attendance';

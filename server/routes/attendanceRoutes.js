@@ -1,6 +1,6 @@
 // attendanceRoutes.js
 const express = require('express');
-const Attendance = require('./models/Attendance');
+const Attendance = require('../models/Attendance'); // Import was incorrect , ./models/Attendance
 
 const router = express.Router();
 
