@@ -1,0 +1,117 @@
+/* Styles for the RegisterStudent component */
+
+.register-student-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff; /* White background */
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px;
+}
+
+.form-section {
+    width: 100%;
+    max-width: 600px;
+    background: #f9f9f9; /* Light grey background for forms */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Increased padding for more spacing */
+    margin-bottom: 30px; /* Increased margin for space between sections */
+}
+
+.form-section h3 {
+    color: #007bff; /* Blue color for section headings */
+    margin-bottom: 20px; /* Increased bottom margin */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased bottom margin for more spacing between input fields */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px; /* Increased space between label and input */
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px; /* Increased padding for input fields */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
+}
+
+.form-group select {
+    font-size: 16px;
+}
+
+.register-button, .unregister-button, .update-fetch-button, .update-button, .reset-button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0; /* Increased margin between buttons */
+}
+
+.register-button {
+    background-color: #28a745; /* Green */
+}
+
+.register-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.unregister-button {
+    background-color: #dc3545; /* Red */
+}
+
+.unregister-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.update-fetch-button {
+    background-color: #007bff; /* Blue */
+}
+
+.update-fetch-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.update-button {
+    background-color: #007bff; /* Blue */
+}
+
+.update-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.reset-button {
+    background-color: #6c757d; /* Grey */
+}
+
+.reset-button:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+}
+
+.error-message {
+    color: red;
+    margin-top: 15px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 15px;
+}
